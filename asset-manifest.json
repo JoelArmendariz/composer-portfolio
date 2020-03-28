@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/composer-portfolio/static/css/main.3bbf8258.chunk.css",
+    "main.css": "/composer-portfolio/static/css/main.bde04888.chunk.css",
     "main.js": "/composer-portfolio/static/js/main.fa6c9d84.chunk.js",
     "main.js.map": "/composer-portfolio/static/js/main.fa6c9d84.chunk.js.map",
     "runtime-main.js": "/composer-portfolio/static/js/runtime-main.5b3822e7.js",
@@ -8,9 +8,9 @@
     "static/js/2.8dc2c949.chunk.js": "/composer-portfolio/static/js/2.8dc2c949.chunk.js",
     "static/js/2.8dc2c949.chunk.js.map": "/composer-portfolio/static/js/2.8dc2c949.chunk.js.map",
     "index.html": "/composer-portfolio/index.html",
-    "precache-manifest.f0110d96315975fb86f4da4210607607.js": "/composer-portfolio/precache-manifest.f0110d96315975fb86f4da4210607607.js",
+    "precache-manifest.84c71fc6819896f8240bc951abfdc7a8.js": "/composer-portfolio/precache-manifest.84c71fc6819896f8240bc951abfdc7a8.js",
     "service-worker.js": "/composer-portfolio/service-worker.js",
-    "static/css/main.3bbf8258.chunk.css.map": "/composer-portfolio/static/css/main.3bbf8258.chunk.css.map",
+    "static/css/main.bde04888.chunk.css.map": "/composer-portfolio/static/css/main.bde04888.chunk.css.map",
     "static/js/2.8dc2c949.chunk.js.LICENSE.txt": "/composer-portfolio/static/js/2.8dc2c949.chunk.js.LICENSE.txt",
     "static/media/JoelHeadshotFull.jpg": "/composer-portfolio/static/media/JoelHeadshotFull.93a8ac14.jpg",
     "static/media/home-studio-desk.jpg": "/composer-portfolio/static/media/home-studio-desk.973f67b1.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.5b3822e7.js",
     "static/js/2.8dc2c949.chunk.js",
-    "static/css/main.3bbf8258.chunk.css",
+    "static/css/main.bde04888.chunk.css",
     "static/js/main.fa6c9d84.chunk.js"
   ]
 }
