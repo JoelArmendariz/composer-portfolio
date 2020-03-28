@@ -4,18 +4,12 @@
     width: 60%;
     height: 40rem;
 }
-/* 
-.video-player:before{
-    content: "";
-    display: block;
-    padding-top: 50%;
-} */
 
 .video-description-container {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    width: 60%;
+    width: 100%;
 }
 
 .video-player-description {
@@ -26,6 +20,7 @@
     letter-spacing: 0em;
     margin-bottom: 0;
     text-align: start;
+    width: 100%;
 }
 
 .video-player-title {

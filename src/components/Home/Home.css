@@ -1,8 +1,13 @@
 .home-tab-container {
+    display: flex;
+    justify-content: center;
     margin-top: 2rem;
     width: 80%;
+    overflow: hidden;
 }
 
 .desk-shot-img {
+    align-self: center;
     width: 100%;
+    min-width: 75rem;
 }
