@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/composer-portfolio/static/css/main.5f361e03.chunk.css",
-    "main.js": "/composer-portfolio/static/js/main.6c0a672f.chunk.js",
-    "main.js.map": "/composer-portfolio/static/js/main.6c0a672f.chunk.js.map",
+    "main.css": "/composer-portfolio/static/css/main.355abd18.chunk.css",
+    "main.js": "/composer-portfolio/static/js/main.94fea39f.chunk.js",
+    "main.js.map": "/composer-portfolio/static/js/main.94fea39f.chunk.js.map",
     "runtime-main.js": "/composer-portfolio/static/js/runtime-main.5b3822e7.js",
     "runtime-main.js.map": "/composer-portfolio/static/js/runtime-main.5b3822e7.js.map",
-    "static/js/2.f933d178.chunk.js": "/composer-portfolio/static/js/2.f933d178.chunk.js",
-    "static/js/2.f933d178.chunk.js.map": "/composer-portfolio/static/js/2.f933d178.chunk.js.map",
+    "static/js/2.b3f8bca1.chunk.js": "/composer-portfolio/static/js/2.b3f8bca1.chunk.js",
+    "static/js/2.b3f8bca1.chunk.js.map": "/composer-portfolio/static/js/2.b3f8bca1.chunk.js.map",
     "index.html": "/composer-portfolio/index.html",
-    "precache-manifest.c15cc4c96cb3ee1938054c45baa7d407.js": "/composer-portfolio/precache-manifest.c15cc4c96cb3ee1938054c45baa7d407.js",
+    "precache-manifest.bd23eab8852d5a08dbed16335a58ca4a.js": "/composer-portfolio/precache-manifest.bd23eab8852d5a08dbed16335a58ca4a.js",
     "service-worker.js": "/composer-portfolio/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/composer-portfolio/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.f933d178.chunk.js.LICENSE.txt": "/composer-portfolio/static/js/2.f933d178.chunk.js.LICENSE.txt"
+    "static/css/main.355abd18.chunk.css.map": "/composer-portfolio/static/css/main.355abd18.chunk.css.map",
+    "static/js/2.b3f8bca1.chunk.js.LICENSE.txt": "/composer-portfolio/static/js/2.b3f8bca1.chunk.js.LICENSE.txt",
+    "static/media/JoelHeadshotFull.jpg": "/composer-portfolio/static/media/JoelHeadshotFull.93a8ac14.jpg",
+    "static/media/home-studio-desk.jpg": "/composer-portfolio/static/media/home-studio-desk.973f67b1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.5b3822e7.js",
-    "static/js/2.f933d178.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.6c0a672f.chunk.js"
+    "static/js/2.b3f8bca1.chunk.js",
+    "static/css/main.355abd18.chunk.css",
+    "static/js/main.94fea39f.chunk.js"
   ]
 }
