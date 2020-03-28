@@ -35,7 +35,7 @@ class Media extends React.Component {
 				<VideoPlayer film={currentFilm} youTubeId={videoId} />
 				<div className="media-tab-index">
 					{films.map(film => {
-						return (
+						return film.youTubeId !== videoId ? (
 							<Paper
 								className="video-card"
 								children={
@@ -46,7 +46,7 @@ class Media extends React.Component {
 								}
 								elevation={3}
 							/>
-						)
+						) : null;
 					})}
 				</div>
 			</div>
