@@ -1,9 +1,10 @@
 import React from 'react';
 import './Video.css';
 
-const Video = ({ youTubeId, filmTitle, onSelect, film }) => {
+const Video = ({ youTubeId, filmTitle, onSelect, film, setIsLoading }) => {
 	const handleClick = () => {
 		window.scrollTo({ top: 0, behavior: 'smooth' });
+		setIsLoading(true);
 		onSelect(youTubeId, film);
 	}
 	return (

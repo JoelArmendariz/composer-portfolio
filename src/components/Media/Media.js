@@ -15,9 +15,11 @@ class Media extends React.Component {
 				title: films[0].title,
 				director: films[0].director,
 				description: films[0].description
-			}
+			},
+			isLoading: false
 		}
 		this.setVideoId = this.setVideoId.bind(this);
+		this.setIsLoading = this.setIsLoading.bind(this);
 	}
 
 	setVideoId (id, film) {
@@ -27,12 +29,18 @@ class Media extends React.Component {
 		})
 	}
 
+	setIsLoading (bool) {
+		this.setState({
+			isLoading: bool
+		})
+	}
+
 	render () {
-		const { videoId, currentFilm } = this.state;
+		const { videoId, currentFilm, isLoading } = this.state;
 		return (
 			<div className="media-tab-container">
 				<h5 className="media-tab-title">Film Scores</h5>
-				<VideoPlayer film={currentFilm} youTubeId={videoId} />
+				<VideoPlayer setIsLoading={this.setIsLoading} isLoading={isLoading} film={currentFilm} youTubeId={videoId} />
 				<div className="media-tab-index">
 					{films.map(film => {
 						return film.youTubeId !== videoId ? (
@@ -40,7 +48,7 @@ class Media extends React.Component {
 								className="video-card"
 								children={
 									<div>
-										<Video film={film} onSelect={this.setVideoId} key={film.id} youTubeId={film.youTubeId} filmTitle={film.title} />
+										<Video setIsLoading={this.setIsLoading} film={film} onSelect={this.setVideoId} key={film.id} youTubeId={film.youTubeId} filmTitle={film.title} />
 										<h5 className="film-title">{film.title}</h5>
 									</div>
 								}
