@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    width: 100%
+}
+
+.title {
+    font-size: 2rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    line-height: 1.334;
+    letter-spacing: 0em;
+}
+
+.MuiTab-root {
+    cursor: pointer;
+}
