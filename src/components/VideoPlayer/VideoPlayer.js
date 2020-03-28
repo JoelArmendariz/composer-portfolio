@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './VideoPlayer.css';
 import ResponsiveEmbed from 'react-responsive-embed';
 
