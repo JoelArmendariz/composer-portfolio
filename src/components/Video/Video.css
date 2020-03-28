@@ -1,5 +1,6 @@
 .video {
     margin: 0.25rem;
-    max-width: 20rem;
+    width: 22rem;
+    max-width: 100%;
     cursor: pointer;
 }

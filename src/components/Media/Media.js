@@ -31,7 +31,7 @@ class Media extends React.Component {
 		const { videoId, currentFilm } = this.state;
 		return (
 			<div className="media-tab-container">
-			<h5 className="media-tab-title">Film Scores</h5>
+				<h5 className="media-tab-title">Film Scores</h5>
 				<VideoPlayer film={currentFilm} youTubeId={videoId} />
 				<div className="media-tab-index">
 					{films.map(film => {

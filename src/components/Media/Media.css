@@ -17,12 +17,12 @@
 }
 
 .media-tab-index {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 3rem;
+    margin-top: 3rem;
     overflow: hidden;
 }
 
